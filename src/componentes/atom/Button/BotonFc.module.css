@@ -6,6 +6,7 @@
     align-items: center;
     border: None;
     height: 3em;
+    background-color: #f0f2f5 ;
 }
 
 .Fc_Buttons_Img {
@@ -13,4 +14,8 @@
     max-height: 70%;
 
 
+}
+
+.Fc_Buttons:hover {
+    background-color: #e8e8e9 ;
 }
