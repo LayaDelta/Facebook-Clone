@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Styles from './FriendBUtton.module.css'
+import Styles from './FriendButton.module.css'
 export function FriendButton(){
     return(
         <Fragment>
