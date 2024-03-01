@@ -1,0 +1,8 @@
+.Fc_FriendButton {
+    border: none;
+    width:150px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+}
