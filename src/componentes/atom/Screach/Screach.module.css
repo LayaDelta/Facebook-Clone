@@ -1,7 +1,7 @@
 .Fc_Input {
     background-color: #f0f2f5;
     border: none;
-    width:16em;
+    width:19em;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     height: 42px;
@@ -17,9 +17,9 @@
     background-color: rgb(255, 252, 247);
     box-shadow: 1px 1px 5px black;
     border: none;
-    width:22em;
+    width:19em;
     display: flex;
-    height: 22em;
+    height: 26em;
     transition: 0.2s;
     padding: 6px;
     position: absolute;
