@@ -11,6 +11,24 @@
     outline: none;
 }
 
+.Fc_Nav_Clik {
+    position: absolute;
+    outline: none;
+    background-color: rgb(255, 252, 247);
+    box-shadow: 1px 1px 5px black;
+    border: none;
+    width:22em;
+    display: flex;
+    height: 22em;
+    transition: 0.2s;
+    padding: 6px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+
+}
+
 .Fc_Button {
     border-top-left-radius:100px ;
     border-bottom-left-radius: 100px;
@@ -30,6 +48,6 @@
     box-sizing: border-box;
     width: 22em;
     display: flex;
-    justify-content: start;
+    align-items: center;
    
 }
