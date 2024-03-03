@@ -7,14 +7,19 @@ export function Screach() {
     const ref = useRef(null);
     const [claseBotton, setClaseBotton] = useState("Screach.svg");
     const refButton = useRef(null)
+    const [claseLabel, setClaseLabel] = useState(Styles.Fc_label);
+    const refLabel = useRef(null)
+  
 
     const handleClick = () => {
         if (clase === Styles.Fc_Nav) {
             setClase(Styles.Fc_Nav_Clik);
-            setClaseBotton("Arrow.svg")
+            setClaseBotton("Arrow.svg");
+           
           } else {
             setClase(Styles.Fc_Input);
             setClaseBotton("Screach.svg")
+           
           }
     };
 
@@ -35,6 +40,7 @@ export function Screach() {
         };
       }, []);
       const ImgButton = `../src/assets/Buttons/${claseBotton}`
+      
 
 return(
     <Fragment>

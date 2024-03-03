@@ -15,7 +15,7 @@
     position: absolute;
     outline: none;
     background-color: rgb(255, 252, 247);
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 3px black;
     border: none;
     width:19em;
     display: flex;
@@ -46,8 +46,15 @@
 
 .Fc_Nav {
     box-sizing: border-box;
-    width: 22em;
+    width: 19em;
     display: flex;
     align-items: center;
    
 }
+
+.Fc_label {
+    display:flex ;
+
+}
+
+
